@@ -1,6 +1,4 @@
-package hw7.search;
-
-import hw7.Map;
+import Map;
 import java.io.File;
 import java.util.List;
 import java.util.Set;
@@ -8,7 +6,7 @@ import obfuscate.SimpleSearchEngine;
 
 
 /**
- * This is a wrapper class around staff's implementation of Jhugle.
+ * This is a wrapper class around implementation of Jhugle.
  */
 public class Jhugle implements SearchEngine {
 

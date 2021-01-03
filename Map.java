@@ -1,5 +1,3 @@
-package hw7;
-
 /**
  * Map ADT.
  *
@@ -47,7 +45,7 @@ public interface Map<K, V> extends Iterable<K> {
    * Check existence of a key.
    *
    * @param k The key.
-   * @return True if k is mapped, false otherwise (even for null!).
+   * @return True if k is mapped, false otherwise (even for null).
    */
   boolean has(K k);
 

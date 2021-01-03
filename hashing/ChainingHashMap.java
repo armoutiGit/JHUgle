@@ -1,6 +1,5 @@
-package hw7.hashing;
 
-import hw7.Map;
+import Map;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
@@ -93,7 +92,6 @@ public class ChainingHashMap<K, V> implements Map<K, V> {
 
   @Override
   public V remove(K k) throws IllegalArgumentException {
-    // TODO Implement Me!
     if (!has(k)) {
       throw new IllegalArgumentException();
     }
@@ -118,7 +116,6 @@ public class ChainingHashMap<K, V> implements Map<K, V> {
 
   @Override
   public void put(K k, V v) throws IllegalArgumentException {
-    // TODO Implement Me!
     Object[] obj = find(k);
     if (obj == null) {
       throw new IllegalArgumentException();
@@ -128,7 +125,6 @@ public class ChainingHashMap<K, V> implements Map<K, V> {
 
   @Override
   public V get(K k) throws IllegalArgumentException {
-    // TODO Implement Me!
     Object[] obj = find(k);
     if (obj == null) {
       throw new IllegalArgumentException();
@@ -138,7 +134,6 @@ public class ChainingHashMap<K, V> implements Map<K, V> {
 
   @Override
   public boolean has(K k) {
-    // TODO Implement Me!
     return find(k) != null;
   }
 
@@ -162,7 +157,6 @@ public class ChainingHashMap<K, V> implements Map<K, V> {
 
   @Override
   public int size() {
-    // TODO Implement Me!
     return howMany;
   }
 
@@ -173,7 +167,6 @@ public class ChainingHashMap<K, V> implements Map<K, V> {
 
   @Override
   public Iterator<K> iterator() {
-    // TODO Implement Me!
     return new ChainingIterator();
   }
 

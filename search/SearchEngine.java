@@ -1,5 +1,3 @@
-package hw7.search;
-
 import java.io.File;
 import java.util.List;
 

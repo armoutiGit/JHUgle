@@ -1,9 +1,7 @@
-package hw7.experiment;
-
-import hw7.hashing.ChainingHashMap;
-import hw7.hashing.HashMap;
-import hw7.hashing.OpenAddressingHashMap;
-import hw7.search.Jhugle;
+import hashing.ChainingHashMap;
+import hashing.HashMap;
+import hashing.OpenAddressingHashMap;
+import search.Jhugle;
 import java.net.URL;
 import java.nio.file.Path;
 import java.nio.file.Paths;

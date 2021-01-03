@@ -1,6 +1,4 @@
-package hw7;
-
-import hw7.hashing.ChainingHashMap;
+import hashing.ChainingHashMap;
 
 class ChainingHashMapTest extends MapTest {
   @Override

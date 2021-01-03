@@ -1,6 +1,4 @@
-package hw7;
-
-import hw7.hashing.OpenAddressingHashMap;
+import hashing.OpenAddressingHashMap;
 
 class OpenAddressingHashMapTest extends MapTest {
   @Override

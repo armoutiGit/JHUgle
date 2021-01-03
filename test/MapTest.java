@@ -1,6 +1,4 @@
-package hw7;
-
-import hw7.Map;
+import Map;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -214,6 +212,5 @@ public abstract class MapTest {
   }
 
   // Ideally we should also check for "Keys must be immutable"
-  // This is not trivial; check out
-  // https://github.com/MutabilityDetector/MutabilityDetector
+
 }

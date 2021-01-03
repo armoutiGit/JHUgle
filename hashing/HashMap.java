@@ -1,6 +1,4 @@
-package hw7.hashing;
-
-import hw7.Map;
+import Map;
 import java.util.Iterator;
 
 public class HashMap<K, V> implements Map<K, V> {

@@ -29,9 +29,7 @@ public class Driver {
     String path = url.getPath().replace("%20", " ")
         .replace("classes", "resources");
     Path dataFile = Paths.get(path, getDataFile());
-    // On Windows, use this:
-    // Path dataFile = Paths.get(path.substring(1), getDataFile());
-
+   
     BasicProfiler.reset();
     BasicProfiler.start();
     jhUgle.buildSearchEngine(dataFile.toFile());
